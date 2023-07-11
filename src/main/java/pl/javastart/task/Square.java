@@ -7,6 +7,10 @@ public class Square {
         this.side = side;
     }
 
+    public double calculateArea() {
+        return Math.pow(side, 2);
+    }
+
     public double getSide() {
         return side;
     }

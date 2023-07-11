@@ -11,6 +11,10 @@ public class Triangle {
         this.sideC = sideC;
     }
 
+    public double calculatePerimeter() {
+        return sideA + sideB + sideC;
+    }
+
     public double getSideA() {
         return sideA;
     }
